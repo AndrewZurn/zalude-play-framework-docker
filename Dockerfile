@@ -1,4 +1,4 @@
-webdizz/centos-java8
+FROM webdizz/centos-java8
 MAINTAINER Andrew Zurn <zalude.app@gmail.com>
 
 RUN yum update -y
