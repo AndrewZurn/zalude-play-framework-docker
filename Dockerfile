@@ -3,4 +3,4 @@ MAINTAINER Andrew Zurn <zalude.app@gmail.com>
 
 EXPOSE 9000 8080
 
-CMD ["activator", "run", "-Dconfig.resource=dist"]
+CMD ["activator", "run", "-Dconfig.resource=application.dist.conf"]
