@@ -12,4 +12,4 @@ EXPOSE 9000 8080
 RUN mkdir /app
 WORKDIR /app
 
-CMD sbt -Dconfig.resource="application.dist.conf" run
+CMD ["sbt", "run"]
